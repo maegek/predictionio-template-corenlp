@@ -1,0 +1,615 @@
+2015-02-16 13:47:34,640 INFO  io.prediction.tools.Console$ [main] - Creating Event Server at localhost:7070
+2015-02-16 13:47:35,133 INFO  akka.event.slf4j.Slf4jLogger [EventServerSystem-akka.actor.default-dispatcher-3] - Slf4jLogger started
+2015-02-16 13:47:36,373 WARN  org.apache.hadoop.util.NativeCodeLoader [main] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-02-16 13:47:36,430 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2015-02-16 13:47:36,430 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:host.name=d-69-91-137-110.dhcp4.washington.edu
+2015-02-16 13:47:36,431 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.version=1.7.0_71
+2015-02-16 13:47:36,431 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.vendor=Oracle Corporation
+2015-02-16 13:47:36,431 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre
+2015-02-16 13:47:36,431 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.class.path=/Users/maegek/PredictionIO/conf:/Users/maegek/PredictionIO/lib/pio-assembly-0.8.6.jar:/Users/maegek/PredictionIO/conf
+2015-02-16 13:47:36,431 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.library.path=/Users/maegek/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2015-02-16 13:47:36,431 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.io.tmpdir=/var/folders/ql/417bp0nj5ts7y4x3rp17jk880000gn/T/
+2015-02-16 13:47:36,431 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.compiler=<NA>
+2015-02-16 13:47:36,432 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:os.name=Mac OS X
+2015-02-16 13:47:36,432 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:os.arch=x86_64
+2015-02-16 13:47:36,432 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:os.version=10.10.2
+2015-02-16 13:47:36,432 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:user.name=maegek
+2015-02-16 13:47:36,434 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:user.home=/Users/maegek
+2015-02-16 13:47:36,434 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:user.dir=/Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp
+2015-02-16 13:47:36,435 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=hconnection-0x6c450b6, quorum=localhost:2181, baseZNode=/hbase
+2015-02-16 13:47:36,453 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=hconnection-0x6c450b6 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-16 13:47:36,454 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-16 13:47:36,463 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-16 13:47:36,469 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14b945bc9980006, negotiated timeout = 40000
+2015-02-16 13:47:36,891 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing master protocol: MasterService
+2015-02-16 13:47:36,891 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing zookeeper sessionid=0x14b945bc9980006
+2015-02-16 13:47:36,892 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14b945bc9980006 closed
+2015-02-16 13:47:36,892 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-16 13:47:37,028 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=hconnection-0x3ba56cf8, quorum=localhost:2181, baseZNode=/hbase
+2015-02-16 13:47:37,029 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=hconnection-0x3ba56cf8 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-16 13:47:37,029 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-16 13:47:37,029 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-16 13:47:37,031 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14b945bc9980007, negotiated timeout = 40000
+2015-02-16 13:47:37,173 INFO  org.elasticsearch.plugins [main] - [S'byll] loaded [], sites []
+2015-02-16 13:47:42,868 INFO  org.elasticsearch.client.transport [main] - [S'byll] failed to get node info for [#transport#-1][D-69-91-137-110.dhcp4.washington.edu][inet[localhost/127.0.0.1:9300]], disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][inet[localhost/127.0.0.1:9300]][cluster/nodes/info] request_id [0] timed out after [5005ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:370)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-02-16 13:47:47,875 INFO  org.elasticsearch.client.transport [elasticsearch[S'byll][generic][T#1]] - [S'byll] failed to get node info for [#transport#-1][D-69-91-137-110.dhcp4.washington.edu][inet[localhost/127.0.0.1:9300]], disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][inet[localhost/127.0.0.1:9300]][cluster/nodes/info] request_id [1] timed out after [5001ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:370)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-02-16 13:47:57,885 INFO  org.elasticsearch.client.transport [elasticsearch[S'byll][generic][T#1]] - [S'byll] failed to get node info for [#transport#-1][D-69-91-137-110.dhcp4.washington.edu][inet[localhost/127.0.0.1:9300]], disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][inet[localhost/127.0.0.1:9300]][cluster/nodes/info] request_id [2] timed out after [5005ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:370)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-02-16 13:48:07,896 INFO  org.elasticsearch.client.transport [elasticsearch[S'byll][generic][T#1]] - [S'byll] failed to get node info for [#transport#-1][D-69-91-137-110.dhcp4.washington.edu][inet[localhost/127.0.0.1:9300]], disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][inet[localhost/127.0.0.1:9300]][cluster/nodes/info] request_id [3] timed out after [5002ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:370)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-02-16 13:48:17,907 INFO  org.elasticsearch.client.transport [elasticsearch[S'byll][generic][T#1]] - [S'byll] failed to get node info for [#transport#-1][D-69-91-137-110.dhcp4.washington.edu][inet[localhost/127.0.0.1:9300]], disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][inet[localhost/127.0.0.1:9300]][cluster/nodes/info] request_id [4] timed out after [5004ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:370)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-02-16 13:48:27,917 INFO  org.elasticsearch.client.transport [elasticsearch[S'byll][generic][T#1]] - [S'byll] failed to get node info for [#transport#-1][D-69-91-137-110.dhcp4.washington.edu][inet[localhost/127.0.0.1:9300]], disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][inet[localhost/127.0.0.1:9300]][cluster/nodes/info] request_id [5] timed out after [5004ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:370)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-02-16 13:48:34,908 INFO  io.prediction.tools.Console$ [main] - Using command '/Users/maegek/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-02-16 13:48:34,911 INFO  io.prediction.tools.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-02-16 13:48:34,914 INFO  io.prediction.tools.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.8.6.jar is absent.
+2015-02-16 13:48:34,915 INFO  io.prediction.tools.Console$ [main] - Going to run: /Users/maegek/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-02-16 13:49:04,125 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mjava.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space[0m
+2015-02-16 13:49:04,126 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mUse 'last' for the full log.[0m
+2015-02-16 13:49:04,223 ERROR io.prediction.tools.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-02-16 14:08:43,808 INFO  io.prediction.tools.Console$ [main] - Using existing engine manifest JSON at /Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp/manifest.json
+2015-02-16 14:08:43,813 INFO  io.prediction.tools.Console$ [main] - Using command '/Users/maegek/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-02-16 14:08:43,816 INFO  io.prediction.tools.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-02-16 14:08:43,817 INFO  io.prediction.tools.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.8.6.jar is absent.
+2015-02-16 14:08:43,818 INFO  io.prediction.tools.Console$ [main] - Going to run: /Users/maegek/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-02-16 14:08:53,460 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mjava.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space[0m
+2015-02-16 14:08:53,462 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mUse 'last' for the full log.[0m
+2015-02-16 14:08:53,526 ERROR io.prediction.tools.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-02-16 14:09:48,665 INFO  io.prediction.tools.Console$ [main] - Using existing engine manifest JSON at /Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp/manifest.json
+2015-02-16 14:09:48,670 INFO  io.prediction.tools.Console$ [main] - Using command '/Users/maegek/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-02-16 14:09:48,673 INFO  io.prediction.tools.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-02-16 14:09:48,674 INFO  io.prediction.tools.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.8.6.jar is absent.
+2015-02-16 14:09:48,674 INFO  io.prediction.tools.Console$ [main] - Going to run: /Users/maegek/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-02-16 14:09:57,821 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mjava.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space[0m
+2015-02-16 14:09:57,822 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mUse 'last' for the full log.[0m
+2015-02-16 14:09:57,895 ERROR io.prediction.tools.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-02-16 14:14:57,466 INFO  io.prediction.tools.Console$ [main] - Using existing engine manifest JSON at /Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp/manifest.json
+2015-02-16 14:14:57,470 INFO  io.prediction.tools.Console$ [main] - Using command '/Users/maegek/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-02-16 14:14:57,473 INFO  io.prediction.tools.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-02-16 14:14:57,474 INFO  io.prediction.tools.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.8.6.jar is absent.
+2015-02-16 14:14:57,474 INFO  io.prediction.tools.Console$ [main] - Going to run: /Users/maegek/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-02-16 14:15:06,994 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mjava.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space[0m
+2015-02-16 14:15:06,996 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mUse 'last' for the full log.[0m
+2015-02-16 14:15:07,065 ERROR io.prediction.tools.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-02-16 14:33:16,302 INFO  io.prediction.tools.Console$ [main] - Using existing engine manifest JSON at /Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp/manifest.json
+2015-02-16 14:33:16,308 INFO  io.prediction.tools.Console$ [main] - Using command '/Users/maegek/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-02-16 14:33:16,311 INFO  io.prediction.tools.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-02-16 14:33:16,312 INFO  io.prediction.tools.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.8.6.jar is absent.
+2015-02-16 14:33:16,313 INFO  io.prediction.tools.Console$ [main] - Going to run: /Users/maegek/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-02-16 14:33:25,983 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mjava.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space[0m
+2015-02-16 14:33:25,984 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mUse 'last' for the full log.[0m
+2015-02-16 14:33:26,050 ERROR io.prediction.tools.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-02-22 18:10:48,418 INFO  org.elasticsearch.plugins [main] - [Goblin Queen] loaded [], sites []
+2015-02-22 18:10:49,528 INFO  io.prediction.tools.Console$ [main] -                 Name |   ID |                                                       Access Key | Allowed Event(s)
+2015-02-22 18:10:49,579 INFO  io.prediction.tools.Console$ [main] -               MyApp1 |    3 | YJQJ9pAadMtB99TkGkVCmySfh82Rlm4BQSCotNjOh7Lao03Fxb9JF8wuhMdjKZ6o | (all)
+2015-02-22 18:10:49,585 INFO  io.prediction.tools.Console$ [main] -               MyApp2 |    5 | IiVWtwhQZPrwsjWacMbae9SrZyHEp1puzsq7PjyNdar4SeLiUVHrymBjhQb4aOvv | (all)
+2015-02-22 18:10:49,586 INFO  io.prediction.tools.Console$ [main] - Finished listing 2 app(s).
+2015-02-22 18:17:00,622 INFO  org.elasticsearch.plugins [main] - [Dan Ketch] loaded [], sites []
+2015-02-22 18:17:02,715 WARN  org.apache.hadoop.util.NativeCodeLoader [main] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-02-22 18:17:02,776 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2015-02-22 18:17:02,777 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:host.name=192.168.1.192
+2015-02-22 18:17:02,777 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.version=1.7.0_71
+2015-02-22 18:17:02,777 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.vendor=Oracle Corporation
+2015-02-22 18:17:02,777 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre
+2015-02-22 18:17:02,777 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.class.path=/Users/maegek/PredictionIO/conf:/Users/maegek/PredictionIO/lib/pio-assembly-0.8.6.jar:/Users/maegek/PredictionIO/conf
+2015-02-22 18:17:02,777 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.library.path=/Users/maegek/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2015-02-22 18:17:02,777 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.io.tmpdir=/var/folders/ql/417bp0nj5ts7y4x3rp17jk880000gn/T/
+2015-02-22 18:17:02,778 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.compiler=<NA>
+2015-02-22 18:17:02,778 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:os.name=Mac OS X
+2015-02-22 18:17:02,778 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:os.arch=x86_64
+2015-02-22 18:17:02,778 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:os.version=10.10.2
+2015-02-22 18:17:02,778 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:user.name=maegek
+2015-02-22 18:17:02,778 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:user.home=/Users/maegek
+2015-02-22 18:17:02,780 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:user.dir=/Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp
+2015-02-22 18:17:02,781 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=hconnection-0x573e48d4, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:17:02,797 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=hconnection-0x573e48d4 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:17:02,798 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:17:02,798 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 18:17:02,805 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14bb431b20e0006, negotiated timeout = 40000
+2015-02-22 18:17:03,222 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing master protocol: MasterService
+2015-02-22 18:17:03,222 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing zookeeper sessionid=0x14bb431b20e0006
+2015-02-22 18:17:03,223 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e0006 closed
+2015-02-22 18:17:03,223 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:17:03,360 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=hconnection-0x46548f44, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:17:03,360 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=hconnection-0x46548f44 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:17:03,361 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:17:03,361 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 18:17:03,362 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14bb431b20e0007, negotiated timeout = 40000
+2015-02-22 18:17:03,423 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=hconnection-0x6e22c013, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:17:03,424 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=hconnection-0x6e22c013 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:17:03,424 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:17:03,425 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-22 18:17:03,426 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14bb431b20e0008, negotiated timeout = 40000
+2015-02-22 18:17:03,430 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=catalogtracker-on-hconnection-0x6e22c013, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:17:03,430 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=catalogtracker-on-hconnection-0x6e22c013 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:17:03,431 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:17:03,431 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 18:17:03,432 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14bb431b20e0009, negotiated timeout = 40000
+2015-02-22 18:17:03,453 INFO  org.apache.hadoop.conf.Configuration.deprecation [main] - hadoop.native.lib is deprecated. Instead, use io.native.lib.available
+2015-02-22 18:17:03,558 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing zookeeper sessionid=0x14bb431b20e0008
+2015-02-22 18:17:03,559 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e0008 closed
+2015-02-22 18:17:03,559 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:17:03,665 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e0009 closed
+2015-02-22 18:17:03,665 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:17:03,667 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - The table predictionio_eventdata:events_6 doesn't exist yet. Creating now...
+2015-02-22 18:17:03,857 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=hconnection-0x73e8f917, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:17:03,857 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=hconnection-0x73e8f917 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:17:03,858 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:17:03,858 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 18:17:03,859 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14bb431b20e000a, negotiated timeout = 40000
+2015-02-22 18:17:03,862 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=catalogtracker-on-hconnection-0x73e8f917, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:17:03,863 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=catalogtracker-on-hconnection-0x73e8f917 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:17:03,863 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:17:03,863 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 18:17:03,865 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14bb431b20e000b, negotiated timeout = 40000
+2015-02-22 18:17:03,870 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing zookeeper sessionid=0x14bb431b20e000a
+2015-02-22 18:17:03,871 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e000a closed
+2015-02-22 18:17:03,871 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:17:03,976 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e000b closed
+2015-02-22 18:17:03,976 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:17:03,983 INFO  io.prediction.tools.Console$ [main] - Initialized Event Store for this app ID: 6.
+2015-02-22 18:17:04,012 INFO  io.prediction.tools.Console$ [main] - Created new app:
+2015-02-22 18:17:04,012 INFO  io.prediction.tools.Console$ [main] -       Name: CoreNLPApp
+2015-02-22 18:17:04,013 INFO  io.prediction.tools.Console$ [main] -         ID: 6
+2015-02-22 18:17:04,013 INFO  io.prediction.tools.Console$ [main] - Access Key: Ya4rGYe4eID0mOx6T7Xf5W3jQHqbtdiA0Bi5QzrmFke1qoK4jSvHOzudE5WMY1Vh
+2015-02-22 18:17:04,014 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing master protocol: MasterService
+2015-02-22 18:17:04,014 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing zookeeper sessionid=0x14bb431b20e0007
+2015-02-22 18:17:04,015 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e0007 closed
+2015-02-22 18:17:04,015 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:18:01,507 INFO  org.elasticsearch.plugins [main] - [Atleza] loaded [], sites []
+2015-02-22 18:18:02,237 INFO  io.prediction.tools.Console$ [main] -                 Name |   ID |                                                       Access Key | Allowed Event(s)
+2015-02-22 18:18:02,272 INFO  io.prediction.tools.Console$ [main] -           CoreNLPApp |    6 | Ya4rGYe4eID0mOx6T7Xf5W3jQHqbtdiA0Bi5QzrmFke1qoK4jSvHOzudE5WMY1Vh | (all)
+2015-02-22 18:18:02,278 INFO  io.prediction.tools.Console$ [main] -               MyApp1 |    3 | YJQJ9pAadMtB99TkGkVCmySfh82Rlm4BQSCotNjOh7Lao03Fxb9JF8wuhMdjKZ6o | (all)
+2015-02-22 18:18:02,284 INFO  io.prediction.tools.Console$ [main] -               MyApp2 |    5 | IiVWtwhQZPrwsjWacMbae9SrZyHEp1puzsq7PjyNdar4SeLiUVHrymBjhQb4aOvv | (all)
+2015-02-22 18:18:02,285 INFO  io.prediction.tools.Console$ [main] - Finished listing 3 app(s).
+2015-02-22 18:21:08,194 INFO  org.elasticsearch.plugins [main] - [Neuronne] loaded [], sites []
+2015-02-22 18:21:09,853 WARN  org.apache.hadoop.util.NativeCodeLoader [main] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-02-22 18:21:09,894 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2015-02-22 18:21:09,894 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:host.name=192.168.1.192
+2015-02-22 18:21:09,895 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.version=1.7.0_71
+2015-02-22 18:21:09,895 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.vendor=Oracle Corporation
+2015-02-22 18:21:09,895 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre
+2015-02-22 18:21:09,895 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.class.path=/Users/maegek/PredictionIO/conf:/Users/maegek/PredictionIO/lib/pio-assembly-0.8.6.jar:/Users/maegek/PredictionIO/conf
+2015-02-22 18:21:09,895 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.library.path=/Users/maegek/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2015-02-22 18:21:09,895 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.io.tmpdir=/var/folders/ql/417bp0nj5ts7y4x3rp17jk880000gn/T/
+2015-02-22 18:21:09,895 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.compiler=<NA>
+2015-02-22 18:21:09,895 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:os.name=Mac OS X
+2015-02-22 18:21:09,896 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:os.arch=x86_64
+2015-02-22 18:21:09,896 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:os.version=10.10.2
+2015-02-22 18:21:09,896 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:user.name=maegek
+2015-02-22 18:21:09,896 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:user.home=/Users/maegek
+2015-02-22 18:21:09,898 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:user.dir=/Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp
+2015-02-22 18:21:09,898 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=hconnection-0x1dd527ea, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:21:09,921 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=hconnection-0x1dd527ea connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:21:09,923 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:21:09,924 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 18:21:09,928 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14bb431b20e000c, negotiated timeout = 30000
+2015-02-22 18:21:10,228 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing master protocol: MasterService
+2015-02-22 18:21:10,228 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing zookeeper sessionid=0x14bb431b20e000c
+2015-02-22 18:21:10,230 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e000c closed
+2015-02-22 18:21:10,230 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:21:10,365 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=hconnection-0x6c6e86b7, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:21:10,365 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=hconnection-0x6c6e86b7 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:21:10,366 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:21:10,366 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 18:21:10,368 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14bb431b20e000d, negotiated timeout = 30000
+2015-02-22 18:21:10,411 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=hconnection-0xb9389ee, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:21:10,412 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=hconnection-0xb9389ee connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:21:10,412 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:21:10,412 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 18:21:10,413 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14bb431b20e000e, negotiated timeout = 30000
+2015-02-22 18:21:10,416 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=catalogtracker-on-hconnection-0xb9389ee, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:21:10,417 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=catalogtracker-on-hconnection-0xb9389ee connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:21:10,417 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:21:10,418 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 18:21:10,419 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14bb431b20e000f, negotiated timeout = 30000
+2015-02-22 18:21:10,438 INFO  org.apache.hadoop.conf.Configuration.deprecation [main] - hadoop.native.lib is deprecated. Instead, use io.native.lib.available
+2015-02-22 18:21:10,538 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing zookeeper sessionid=0x14bb431b20e000e
+2015-02-22 18:21:10,539 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e000e closed
+2015-02-22 18:21:10,539 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:21:10,643 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e000f closed
+2015-02-22 18:21:10,643 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:21:10,645 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - The table predictionio_eventdata:events_0 doesn't exist yet. Creating now...
+2015-02-22 18:21:10,795 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=hconnection-0x744a0284, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:21:10,796 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=hconnection-0x744a0284 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:21:10,796 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:21:10,797 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 18:21:10,798 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14bb431b20e0010, negotiated timeout = 30000
+2015-02-22 18:21:10,801 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=catalogtracker-on-hconnection-0x744a0284, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:21:10,802 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=catalogtracker-on-hconnection-0x744a0284 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:21:10,802 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:21:10,803 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 18:21:10,804 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14bb431b20e0011, negotiated timeout = 30000
+2015-02-22 18:21:10,811 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing zookeeper sessionid=0x14bb431b20e0010
+2015-02-22 18:21:10,812 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e0010 closed
+2015-02-22 18:21:10,812 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:21:10,915 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e0011 closed
+2015-02-22 18:21:10,916 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:21:11,093 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=hconnection-0x67e82540, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:21:11,094 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=hconnection-0x67e82540 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:21:11,094 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:21:11,095 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 18:21:11,096 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14bb431b20e0012, negotiated timeout = 30000
+2015-02-22 18:21:11,098 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=catalogtracker-on-hconnection-0x67e82540, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:21:11,099 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=catalogtracker-on-hconnection-0x67e82540 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:21:11,099 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:21:11,100 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-22 18:21:11,101 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14bb431b20e0013, negotiated timeout = 30000
+2015-02-22 18:21:11,107 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing zookeeper sessionid=0x14bb431b20e0012
+2015-02-22 18:21:11,108 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e0012 closed
+2015-02-22 18:21:11,108 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:21:11,216 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e0013 closed
+2015-02-22 18:21:11,216 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:21:11,217 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - Removing table predictionio_eventdata:events_0...
+2015-02-22 18:21:11,219 INFO  org.apache.hadoop.hbase.client.HBaseAdmin [main] - Started disable of predictionio_eventdata:events_0
+2015-02-22 18:21:11,242 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=hconnection-0x67034814, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:21:11,242 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=hconnection-0x67034814 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:21:11,243 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:21:11,243 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 18:21:11,244 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14bb431b20e0014, negotiated timeout = 30000
+2015-02-22 18:21:11,247 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=catalogtracker-on-hconnection-0x67034814, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:21:11,247 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=catalogtracker-on-hconnection-0x67034814 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:21:11,248 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:21:11,248 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 18:21:11,249 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14bb431b20e0015, negotiated timeout = 30000
+2015-02-22 18:21:11,257 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing zookeeper sessionid=0x14bb431b20e0014
+2015-02-22 18:21:11,258 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e0014 closed
+2015-02-22 18:21:11,258 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:21:11,361 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e0015 closed
+2015-02-22 18:21:11,361 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:21:11,469 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=hconnection-0x69d5dad0, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:21:11,470 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=hconnection-0x69d5dad0 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:21:11,470 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:21:11,471 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 18:21:11,474 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14bb431b20e0016, negotiated timeout = 30000
+2015-02-22 18:21:11,477 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=catalogtracker-on-hconnection-0x69d5dad0, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:21:11,478 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=catalogtracker-on-hconnection-0x69d5dad0 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:21:11,478 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:21:11,479 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-22 18:21:11,480 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14bb431b20e0017, negotiated timeout = 30000
+2015-02-22 18:21:11,488 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing zookeeper sessionid=0x14bb431b20e0016
+2015-02-22 18:21:11,489 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e0016 closed
+2015-02-22 18:21:11,489 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:21:11,598 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e0017 closed
+2015-02-22 18:21:11,598 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:21:11,801 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=hconnection-0x48daef85, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:21:11,802 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=hconnection-0x48daef85 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:21:11,802 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:21:11,803 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 18:21:11,805 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14bb431b20e0018, negotiated timeout = 30000
+2015-02-22 18:21:11,808 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=catalogtracker-on-hconnection-0x48daef85, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:21:11,808 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=catalogtracker-on-hconnection-0x48daef85 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:21:11,809 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:21:11,809 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 18:21:11,810 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14bb431b20e0019, negotiated timeout = 30000
+2015-02-22 18:21:11,817 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing zookeeper sessionid=0x14bb431b20e0018
+2015-02-22 18:21:11,818 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e0018 closed
+2015-02-22 18:21:11,818 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:21:11,924 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e0019 closed
+2015-02-22 18:21:11,924 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:21:12,230 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=hconnection-0x4ce6245a, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:21:12,231 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=hconnection-0x4ce6245a connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:21:12,231 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:21:12,232 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-22 18:21:12,234 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14bb431b20e001a, negotiated timeout = 30000
+2015-02-22 18:21:12,237 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=catalogtracker-on-hconnection-0x4ce6245a, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:21:12,238 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=catalogtracker-on-hconnection-0x4ce6245a connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:21:12,239 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:21:12,239 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-22 18:21:12,240 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14bb431b20e001b, negotiated timeout = 30000
+2015-02-22 18:21:12,247 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing zookeeper sessionid=0x14bb431b20e001a
+2015-02-22 18:21:12,248 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e001a closed
+2015-02-22 18:21:12,248 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:21:12,354 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e001b closed
+2015-02-22 18:21:12,354 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:21:12,355 INFO  org.apache.hadoop.hbase.client.HBaseAdmin [main] - Disabled predictionio_eventdata:events_0
+2015-02-22 18:21:12,497 INFO  org.apache.hadoop.hbase.client.HBaseAdmin [main] - Deleted predictionio_eventdata:events_0
+2015-02-22 18:21:12,497 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing master protocol: MasterService
+2015-02-22 18:21:12,498 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing zookeeper sessionid=0x14bb431b20e000d
+2015-02-22 18:21:12,498 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb431b20e000d closed
+2015-02-22 18:21:12,499 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:21:44,615 INFO  io.prediction.tools.Console$ [main] - Using existing engine manifest JSON at /Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp/manifest.json
+2015-02-22 18:21:44,619 INFO  io.prediction.tools.Console$ [main] - Using command '/Users/maegek/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-02-22 18:21:44,622 INFO  io.prediction.tools.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-02-22 18:21:44,623 INFO  io.prediction.tools.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.8.6.jar is absent.
+2015-02-22 18:21:44,624 INFO  io.prediction.tools.Console$ [main] - Going to run: /Users/maegek/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-02-22 18:21:54,190 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mjava.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space[0m
+2015-02-22 18:21:54,190 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mUse 'last' for the full log.[0m
+2015-02-22 18:21:54,249 ERROR io.prediction.tools.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-02-22 18:24:12,127 INFO  io.prediction.tools.Console$ [main] - Using existing engine manifest JSON at /Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp/manifest.json
+2015-02-22 18:24:12,133 INFO  io.prediction.tools.Console$ [main] - Using command '/Users/maegek/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-02-22 18:24:12,137 INFO  io.prediction.tools.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-02-22 18:24:12,138 INFO  io.prediction.tools.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.8.6.jar is absent.
+2015-02-22 18:24:12,138 INFO  io.prediction.tools.Console$ [main] - Going to run: /Users/maegek/PredictionIO/sbt/sbt mem package assemblyPackageDependency
+2015-02-22 18:24:19,523 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mNot a valid command: mem (similar: set)[0m
+2015-02-22 18:24:19,524 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mNot a valid project ID: mem[0m
+2015-02-22 18:24:19,525 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mExpected ':' (if selecting a configuration)[0m
+2015-02-22 18:24:19,525 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mNot a valid key: mem (similar: name, makePom, make-pom)[0m
+2015-02-22 18:24:19,525 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mmem[0m
+2015-02-22 18:24:19,525 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0m   ^[0m
+2015-02-22 18:24:19,559 ERROR io.prediction.tools.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-02-22 18:24:30,286 INFO  io.prediction.tools.Console$ [main] - Using existing engine manifest JSON at /Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp/manifest.json
+2015-02-22 18:24:30,289 INFO  io.prediction.tools.Console$ [main] - Using command '/Users/maegek/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-02-22 18:24:30,291 INFO  io.prediction.tools.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-02-22 18:24:30,292 INFO  io.prediction.tools.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.8.6.jar is absent.
+2015-02-22 18:24:30,293 INFO  io.prediction.tools.Console$ [main] - Going to run: /Users/maegek/PredictionIO/sbt/sbt xms package assemblyPackageDependency
+2015-02-22 18:24:35,862 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mNot a valid command: xms (similar: set)[0m
+2015-02-22 18:24:35,862 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mNot a valid project ID: xms[0m
+2015-02-22 18:24:35,863 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mExpected ':' (if selecting a configuration)[0m
+2015-02-22 18:24:35,863 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mNot a valid key: xms[0m
+2015-02-22 18:24:35,863 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mxms[0m
+2015-02-22 18:24:35,863 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0m   ^[0m
+2015-02-22 18:24:35,893 ERROR io.prediction.tools.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-02-22 18:24:41,766 INFO  io.prediction.tools.Console$ [main] - Using existing engine manifest JSON at /Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp/manifest.json
+2015-02-22 18:24:41,770 INFO  io.prediction.tools.Console$ [main] - Using command '/Users/maegek/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-02-22 18:24:41,772 INFO  io.prediction.tools.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-02-22 18:24:41,772 INFO  io.prediction.tools.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.8.6.jar is absent.
+2015-02-22 18:24:41,773 INFO  io.prediction.tools.Console$ [main] - Going to run: /Users/maegek/PredictionIO/sbt/sbt xmx package assemblyPackageDependency
+2015-02-22 18:24:47,803 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mNot a valid command: xmx[0m
+2015-02-22 18:24:47,803 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mNot a valid project ID: xmx[0m
+2015-02-22 18:24:47,804 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mExpected ':' (if selecting a configuration)[0m
+2015-02-22 18:24:47,804 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mNot a valid key: xmx[0m
+2015-02-22 18:24:47,804 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mxmx[0m
+2015-02-22 18:24:47,804 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0m   ^[0m
+2015-02-22 18:24:47,847 ERROR io.prediction.tools.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-02-22 18:24:53,895 INFO  io.prediction.tools.Console$ [main] - Using existing engine manifest JSON at /Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp/manifest.json
+2015-02-22 18:24:53,899 INFO  io.prediction.tools.Console$ [main] - Using command '/Users/maegek/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-02-22 18:24:53,901 INFO  io.prediction.tools.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-02-22 18:24:53,902 INFO  io.prediction.tools.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.8.6.jar is absent.
+2015-02-22 18:24:53,903 INFO  io.prediction.tools.Console$ [main] - Going to run: /Users/maegek/PredictionIO/sbt/sbt mem/xms/xmx package assemblyPackageDependency
+2015-02-22 18:24:59,493 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mExpected ID character[0m
+2015-02-22 18:24:59,494 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mNot a valid command: mem (similar: set)[0m
+2015-02-22 18:24:59,494 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mExpected project ID[0m
+2015-02-22 18:24:59,495 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mExpected configuration[0m
+2015-02-22 18:24:59,495 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mExpected ':' (if selecting a configuration)[0m
+2015-02-22 18:24:59,495 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mExpected key[0m
+2015-02-22 18:24:59,496 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mNot a valid key: mem (similar: name, makePom, make-pom)[0m
+2015-02-22 18:24:59,496 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mmem/xms/xmx[0m
+2015-02-22 18:24:59,496 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0m   ^[0m
+2015-02-22 18:24:59,540 ERROR io.prediction.tools.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-02-22 18:32:17,340 INFO  io.prediction.tools.Console$ [main] - Using existing engine manifest JSON at /Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp/manifest.json
+2015-02-22 18:32:17,353 INFO  io.prediction.tools.Console$ [main] - Using command '/Users/maegek/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-02-22 18:32:17,356 INFO  io.prediction.tools.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-02-22 18:32:17,357 INFO  io.prediction.tools.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.8.6.jar is absent.
+2015-02-22 18:32:17,357 INFO  io.prediction.tools.Console$ [main] - Going to run: /Users/maegek/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-02-22 18:32:29,530 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mjava.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space[0m
+2015-02-22 18:32:29,531 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mUse 'last' for the full log.[0m
+2015-02-22 18:32:29,610 ERROR io.prediction.tools.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-02-22 18:37:19,254 INFO  io.prediction.tools.Console$ [main] - Using existing engine manifest JSON at /Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp/manifest.json
+2015-02-22 18:37:19,265 INFO  io.prediction.tools.Console$ [main] - Using command '/Users/maegek/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-02-22 18:37:19,269 INFO  io.prediction.tools.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-02-22 18:37:19,270 INFO  io.prediction.tools.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.8.6.jar is absent.
+2015-02-22 18:37:19,270 INFO  io.prediction.tools.Console$ [main] - Going to run: /Users/maegek/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-02-22 18:37:27,016 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mjava.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space[0m
+2015-02-22 18:37:27,017 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mUse 'last' for the full log.[0m
+2015-02-22 18:37:27,084 ERROR io.prediction.tools.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-02-22 18:41:09,352 INFO  io.prediction.tools.Console$ [main] - Using existing engine manifest JSON at /Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp/manifest.json
+2015-02-22 18:41:09,365 INFO  io.prediction.tools.Console$ [main] - Using command '/Users/maegek/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-02-22 18:41:09,369 INFO  io.prediction.tools.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-02-22 18:41:09,369 INFO  io.prediction.tools.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.8.6.jar is absent.
+2015-02-22 18:41:09,370 INFO  io.prediction.tools.Console$ [main] - Going to run: /Users/maegek/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-02-22 18:41:13,323 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mLoading global plugins from /Users/maegek/.sbt/0.13/plugins[0m
+2015-02-22 18:41:14,454 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mLoading project definition from /Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp/project[0m
+2015-02-22 18:41:14,837 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mSet current project to template-scala-parallel-classification (in build file:/Users/maegek/Documents/Education/CSE%20495/PredictionIOWorkspace/corenlp/)[0m
+2015-02-22 18:41:15,620 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[33mwarn[0m] [0mNo main class detected[0m
+2015-02-22 18:41:15,641 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[32msuccess[0m] [0mTotal time: 1 s, completed Feb 22, 2015 6:41:15 PM[0m
+2015-02-22 18:41:15,773 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[33mwarn[0m] [0mNo main class detected[0m
+2015-02-22 18:41:15,885 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: paranamer-2.6.jar[0m
+2015-02-22 18:41:15,886 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: json4s-native_2.10-3.2.10.jar[0m
+2015-02-22 18:41:15,888 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: commons-io-2.4.jar[0m
+2015-02-22 18:41:15,927 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: scalap-2.10.0.jar[0m
+2015-02-22 18:41:15,933 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: joda-time-2.1.jar[0m
+2015-02-22 18:41:15,936 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: xml-apis-1.3.03.jar[0m
+2015-02-22 18:41:15,954 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: json4s-core_2.10-3.2.10.jar[0m
+2015-02-22 18:41:15,989 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: jollyday-0.4.7.jar[0m
+2015-02-22 18:41:15,989 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: json4s-ast_2.10-3.2.10.jar[0m
+2015-02-22 18:41:15,990 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: xom-1.2.10.jar[0m
+2015-02-22 18:41:16,006 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: scala-library.jar[0m
+2015-02-22 18:41:16,007 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: xercesImpl-2.8.0.jar[0m
+2015-02-22 18:41:16,022 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: jaxb-api-2.2.7.jar[0m
+2015-02-22 18:41:16,029 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: scala-reflect-2.10.0.jar[0m
+2015-02-22 18:41:16,063 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: ejml-0.23.jar[0m
+2015-02-22 18:41:16,063 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: scala-compiler-2.10.0.jar[0m
+2015-02-22 18:41:16,077 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: javax.json-api-1.0.jar[0m
+2015-02-22 18:41:16,077 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: xalan-2.7.0.jar[0m
+2015-02-22 18:41:16,087 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding from cache: stanford-corenlp-3.5.1.jar[0m
+2015-02-22 18:41:17,146 INFO  io.prediction.tools.Console$ [Thread-1] - java.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space
+2015-02-22 18:41:17,146 INFO  io.prediction.tools.Console$ [Thread-1] - 	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+2015-02-22 18:41:17,146 INFO  io.prediction.tools.Console$ [Thread-1] - 	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+2015-02-22 18:41:17,147 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.ConcurrentRestrictions$$anon$4.take(ConcurrentRestrictions.scala:188)
+2015-02-22 18:41:17,147 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.Execute.next$1(Execute.scala:83)
+2015-02-22 18:41:17,147 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.Execute.processAll(Execute.scala:86)
+2015-02-22 18:41:17,147 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.Execute.runKeep(Execute.scala:66)
+2015-02-22 18:41:17,147 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.EvaluateTask$.liftedTree1$1(EvaluateTask.scala:342)
+2015-02-22 18:41:17,147 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.EvaluateTask$.run$1(EvaluateTask.scala:341)
+2015-02-22 18:41:17,147 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.EvaluateTask$.runTask(EvaluateTask.scala:361)
+2015-02-22 18:41:17,147 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.Aggregation$$anonfun$3.apply(Aggregation.scala:64)
+2015-02-22 18:41:17,148 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.Aggregation$$anonfun$3.apply(Aggregation.scala:62)
+2015-02-22 18:41:17,148 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.EvaluateTask$.withStreams(EvaluateTask.scala:293)
+2015-02-22 18:41:17,148 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.Aggregation$.timedRun(Aggregation.scala:62)
+2015-02-22 18:41:17,148 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.Aggregation$.runTasks(Aggregation.scala:71)
+2015-02-22 18:41:17,148 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.Aggregation$$anonfun$applyTasks$1.apply(Aggregation.scala:32)
+2015-02-22 18:41:17,148 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.Aggregation$$anonfun$applyTasks$1.apply(Aggregation.scala:31)
+2015-02-22 18:41:17,149 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.Command$$anonfun$applyEffect$2$$anonfun$apply$3.apply(Command.scala:60)
+2015-02-22 18:41:17,149 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.Command$$anonfun$applyEffect$2$$anonfun$apply$3.apply(Command.scala:60)
+2015-02-22 18:41:17,149 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.Aggregation$$anonfun$evaluatingParser$4$$anonfun$apply$5.apply(Aggregation.scala:153)
+2015-02-22 18:41:17,149 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.Aggregation$$anonfun$evaluatingParser$4$$anonfun$apply$5.apply(Aggregation.scala:152)
+2015-02-22 18:41:17,149 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.Act$$anonfun$sbt$Act$$actParser0$1$$anonfun$sbt$Act$$anonfun$$evaluate$1$1$$anonfun$apply$10.apply(Act.scala:244)
+2015-02-22 18:41:17,149 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.Act$$anonfun$sbt$Act$$actParser0$1$$anonfun$sbt$Act$$anonfun$$evaluate$1$1$$anonfun$apply$10.apply(Act.scala:241)
+2015-02-22 18:41:17,150 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.Command$.process(Command.scala:92)
+2015-02-22 18:41:17,150 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.MainLoop$$anonfun$1$$anonfun$apply$1.apply(MainLoop.scala:98)
+2015-02-22 18:41:17,150 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.MainLoop$$anonfun$1$$anonfun$apply$1.apply(MainLoop.scala:98)
+2015-02-22 18:41:17,150 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.State$$anon$1.process(State.scala:184)
+2015-02-22 18:41:17,150 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.MainLoop$$anonfun$1.apply(MainLoop.scala:98)
+2015-02-22 18:41:17,150 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.MainLoop$$anonfun$1.apply(MainLoop.scala:98)
+2015-02-22 18:41:17,151 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+2015-02-22 18:41:17,151 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.MainLoop$.next(MainLoop.scala:98)
+2015-02-22 18:41:17,151 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.MainLoop$.run(MainLoop.scala:91)
+2015-02-22 18:41:17,151 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.MainLoop$$anonfun$runWithNewLog$1.apply(MainLoop.scala:70)
+2015-02-22 18:41:17,151 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.MainLoop$$anonfun$runWithNewLog$1.apply(MainLoop.scala:65)
+2015-02-22 18:41:17,151 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.Using.apply(Using.scala:24)
+2015-02-22 18:41:17,152 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.MainLoop$.runWithNewLog(MainLoop.scala:65)
+2015-02-22 18:41:17,152 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.MainLoop$.runAndClearLast(MainLoop.scala:48)
+2015-02-22 18:41:17,152 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.MainLoop$.runLoggedLoop(MainLoop.scala:32)
+2015-02-22 18:41:17,152 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.MainLoop$.runLogged(MainLoop.scala:24)
+2015-02-22 18:41:17,152 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.StandardMain$.runManaged(Main.scala:53)
+2015-02-22 18:41:17,152 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.xMain.run(Main.scala:28)
+2015-02-22 18:41:17,153 INFO  io.prediction.tools.Console$ [Thread-1] - 	at xsbt.boot.Launch$$anonfun$run$1.apply(Launch.scala:109)
+2015-02-22 18:41:17,153 INFO  io.prediction.tools.Console$ [Thread-1] - 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:128)
+2015-02-22 18:41:17,153 INFO  io.prediction.tools.Console$ [Thread-1] - 	at xsbt.boot.Launch$.run(Launch.scala:109)
+2015-02-22 18:41:17,153 INFO  io.prediction.tools.Console$ [Thread-1] - 	at xsbt.boot.Launch$$anonfun$apply$1.apply(Launch.scala:35)
+2015-02-22 18:41:17,153 INFO  io.prediction.tools.Console$ [Thread-1] - 	at xsbt.boot.Launch$.launch(Launch.scala:117)
+2015-02-22 18:41:17,153 INFO  io.prediction.tools.Console$ [Thread-1] - 	at xsbt.boot.Launch$.apply(Launch.scala:18)
+2015-02-22 18:41:17,153 INFO  io.prediction.tools.Console$ [Thread-1] - 	at xsbt.boot.Boot$.runImpl(Boot.scala:41)
+2015-02-22 18:41:17,154 INFO  io.prediction.tools.Console$ [Thread-1] - 	at xsbt.boot.Boot$.main(Boot.scala:17)
+2015-02-22 18:41:17,154 INFO  io.prediction.tools.Console$ [Thread-1] - 	at xsbt.boot.Boot.main(Boot.scala)
+2015-02-22 18:41:17,154 INFO  io.prediction.tools.Console$ [Thread-1] - Caused by: java.lang.OutOfMemoryError: Java heap space
+2015-02-22 18:41:17,154 INFO  io.prediction.tools.Console$ [Thread-1] - 	at java.util.Arrays.copyOf(Arrays.java:3236)
+2015-02-22 18:41:17,154 INFO  io.prediction.tools.Console$ [Thread-1] - 	at java.io.ByteArrayOutputStream.grow(ByteArrayOutputStream.java:118)
+2015-02-22 18:41:17,154 INFO  io.prediction.tools.Console$ [Thread-1] - 	at java.io.ByteArrayOutputStream.ensureCapacity(ByteArrayOutputStream.java:93)
+2015-02-22 18:41:17,154 INFO  io.prediction.tools.Console$ [Thread-1] - 	at java.io.ByteArrayOutputStream.write(ByteArrayOutputStream.java:153)
+2015-02-22 18:41:17,155 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.IO$.read$1(IO.scala:276)
+2015-02-22 18:41:17,155 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.IO$.transferImpl(IO.scala:280)
+2015-02-22 18:41:17,155 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.IO$.transfer(IO.scala:264)
+2015-02-22 18:41:17,155 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.IO$.readBytes(IO.scala:654)
+2015-02-22 18:41:17,155 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.IO$$anonfun$readBytes$1.apply(IO.scala:648)
+2015-02-22 18:41:17,155 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.IO$$anonfun$readBytes$1.apply(IO.scala:648)
+2015-02-22 18:41:17,155 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.Using.apply(Using.scala:24)
+2015-02-22 18:41:17,156 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbt.IO$.readBytes(IO.scala:648)
+2015-02-22 18:41:17,156 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbtassembly.Plugin$.sbtassembly$Plugin$$sha1content(Plugin.scala:409)
+2015-02-22 18:41:17,156 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbtassembly.Plugin$Assembly$$anonfun$24.apply(Plugin.scala:327)
+2015-02-22 18:41:17,156 INFO  io.prediction.tools.Console$ [Thread-1] - 	at sbtassembly.Plugin$Assembly$$anonfun$24.apply(Plugin.scala:325)
+2015-02-22 18:41:17,156 INFO  io.prediction.tools.Console$ [Thread-1] - 	at scala.collection.parallel.AugmentedIterableIterator$class.map2combiner(RemainsIterator.scala:120)
+2015-02-22 18:41:17,156 INFO  io.prediction.tools.Console$ [Thread-1] - 	at scala.collection.parallel.immutable.ParVector$ParVectorIterator.map2combiner(ParVector.scala:67)
+2015-02-22 18:41:17,156 INFO  io.prediction.tools.Console$ [Thread-1] - 	at scala.collection.parallel.ParIterableLike$Map.leaf(ParIterableLike.scala:1057)
+2015-02-22 18:41:17,157 INFO  io.prediction.tools.Console$ [Thread-1] - 	at scala.collection.parallel.Task$$anonfun$tryLeaf$1.apply$mcV$sp(Tasks.scala:54)
+2015-02-22 18:41:17,157 INFO  io.prediction.tools.Console$ [Thread-1] - 	at scala.collection.parallel.Task$$anonfun$tryLeaf$1.apply(Tasks.scala:53)
+2015-02-22 18:41:17,157 INFO  io.prediction.tools.Console$ [Thread-1] - 	at scala.collection.parallel.Task$$anonfun$tryLeaf$1.apply(Tasks.scala:53)
+2015-02-22 18:41:17,157 INFO  io.prediction.tools.Console$ [Thread-1] - 	at scala.collection.parallel.Task$class.tryLeaf(Tasks.scala:56)
+2015-02-22 18:41:17,158 INFO  io.prediction.tools.Console$ [Thread-1] - 	at scala.collection.parallel.ParIterableLike$Map.tryLeaf(ParIterableLike.scala:1054)
+2015-02-22 18:41:17,158 INFO  io.prediction.tools.Console$ [Thread-1] - 	at scala.collection.parallel.AdaptiveWorkStealingTasks$WrappedTask$class.internal(Tasks.scala:172)
+2015-02-22 18:41:17,158 INFO  io.prediction.tools.Console$ [Thread-1] - 	at scala.collection.parallel.AdaptiveWorkStealingForkJoinTasks$WrappedTask.internal(Tasks.scala:514)
+2015-02-22 18:41:17,158 INFO  io.prediction.tools.Console$ [Thread-1] - 	at scala.collection.parallel.AdaptiveWorkStealingTasks$WrappedTask$class.compute(Tasks.scala:162)
+2015-02-22 18:41:17,158 INFO  io.prediction.tools.Console$ [Thread-1] - 	at scala.collection.parallel.AdaptiveWorkStealingForkJoinTasks$WrappedTask.compute(Tasks.scala:514)
+2015-02-22 18:41:17,158 INFO  io.prediction.tools.Console$ [Thread-1] - 	at scala.concurrent.forkjoin.RecursiveAction.exec(RecursiveAction.java:160)
+2015-02-22 18:41:17,158 INFO  io.prediction.tools.Console$ [Thread-1] - 	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+2015-02-22 18:41:17,159 INFO  io.prediction.tools.Console$ [Thread-1] - 	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+2015-02-22 18:41:17,159 INFO  io.prediction.tools.Console$ [Thread-1] - 	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+2015-02-22 18:41:17,159 INFO  io.prediction.tools.Console$ [Thread-1] - 	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2015-02-22 18:41:17,159 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mjava.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space[0m
+2015-02-22 18:41:17,159 INFO  io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mUse 'last' for the full log.[0m
+2015-02-22 18:41:17,226 ERROR io.prediction.tools.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-02-22 18:44:07,787 INFO  io.prediction.tools.Console$ [main] - Using existing engine manifest JSON at /Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp/manifest.json
+2015-02-22 18:44:07,799 INFO  io.prediction.tools.Console$ [main] - Using command '/Users/maegek/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-02-22 18:44:07,802 INFO  io.prediction.tools.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-02-22 18:44:07,803 INFO  io.prediction.tools.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.8.6.jar is absent.
+2015-02-22 18:44:07,803 INFO  io.prediction.tools.Console$ [main] - Going to run: /Users/maegek/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-02-22 18:44:14,343 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mjava.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space[0m
+2015-02-22 18:44:14,344 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mUse 'last' for the full log.[0m
+2015-02-22 18:44:14,413 ERROR io.prediction.tools.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-02-22 18:44:47,828 INFO  io.prediction.tools.Console$ [main] - Using existing engine manifest JSON at /Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp/manifest.json
+2015-02-22 18:44:47,839 INFO  io.prediction.tools.Console$ [main] - Using command '/Users/maegek/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-02-22 18:44:47,842 INFO  io.prediction.tools.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-02-22 18:44:47,843 INFO  io.prediction.tools.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.8.6.jar is absent.
+2015-02-22 18:44:47,843 INFO  io.prediction.tools.Console$ [main] - Going to run: /Users/maegek/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-02-22 18:44:54,141 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mjava.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space[0m
+2015-02-22 18:44:54,143 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mUse 'last' for the full log.[0m
+2015-02-22 18:44:54,206 ERROR io.prediction.tools.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-02-22 18:45:33,182 INFO  io.prediction.tools.Console$ [main] - Using existing engine manifest JSON at /Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp/manifest.json
+2015-02-22 18:45:33,192 INFO  io.prediction.tools.Console$ [main] - Using command '/Users/maegek/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-02-22 18:45:33,195 INFO  io.prediction.tools.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-02-22 18:45:33,196 INFO  io.prediction.tools.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.8.6.jar is absent.
+2015-02-22 18:45:33,196 INFO  io.prediction.tools.Console$ [main] - Going to run: /Users/maegek/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-02-22 18:45:39,038 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mjava.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space[0m
+2015-02-22 18:45:39,039 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mUse 'last' for the full log.[0m
+2015-02-22 18:45:39,100 ERROR io.prediction.tools.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-02-22 18:49:38,290 INFO  io.prediction.tools.Console$ [main] - Using existing engine manifest JSON at /Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp/manifest.json
+2015-02-22 18:49:38,301 INFO  io.prediction.tools.Console$ [main] - Using command '/Users/maegek/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-02-22 18:49:38,304 INFO  io.prediction.tools.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-02-22 18:49:38,304 INFO  io.prediction.tools.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.8.6.jar is absent.
+2015-02-22 18:49:38,305 INFO  io.prediction.tools.Console$ [main] - Going to run: /Users/maegek/PredictionIO/sbt/sbt  clean package assemblyPackageDependency
+2015-02-22 18:50:05,897 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mjava.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space[0m
+2015-02-22 18:50:05,900 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mUse 'last' for the full log.[0m
+2015-02-22 18:50:06,025 ERROR io.prediction.tools.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-02-22 18:54:50,085 INFO  io.prediction.tools.Console$ [main] - Creating Event Server at localhost:7070
+2015-02-22 18:54:50,578 INFO  akka.event.slf4j.Slf4jLogger [EventServerSystem-akka.actor.default-dispatcher-4] - Slf4jLogger started
+2015-02-22 18:54:52,413 WARN  org.apache.hadoop.util.NativeCodeLoader [main] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-02-22 18:54:52,482 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2015-02-22 18:54:52,483 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:host.name=192.168.1.192
+2015-02-22 18:54:52,483 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.version=1.7.0_71
+2015-02-22 18:54:52,483 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.vendor=Oracle Corporation
+2015-02-22 18:54:52,483 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre
+2015-02-22 18:54:52,483 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.class.path=/Users/maegek/PredictionIO/conf:/Users/maegek/PredictionIO/lib/pio-assembly-0.8.6.jar:/Users/maegek/PredictionIO/conf
+2015-02-22 18:54:52,483 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.library.path=/Users/maegek/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2015-02-22 18:54:52,483 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.io.tmpdir=/var/folders/ql/417bp0nj5ts7y4x3rp17jk880000gn/T/
+2015-02-22 18:54:52,483 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:java.compiler=<NA>
+2015-02-22 18:54:52,484 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:os.name=Mac OS X
+2015-02-22 18:54:52,484 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:os.arch=x86_64
+2015-02-22 18:54:52,484 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:os.version=10.10.2
+2015-02-22 18:54:52,484 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:user.name=maegek
+2015-02-22 18:54:52,486 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:user.home=/Users/maegek
+2015-02-22 18:54:52,486 INFO  org.apache.zookeeper.ZooKeeper [main] - Client environment:user.dir=/Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp
+2015-02-22 18:54:52,486 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=hconnection-0x3a2c5d2f, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:54:52,509 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=hconnection-0x3a2c5d2f connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:54:52,512 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:54:52,524 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 18:54:52,531 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x14bb4516ad10008, negotiated timeout = 40000
+2015-02-22 18:54:52,914 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing master protocol: MasterService
+2015-02-22 18:54:52,914 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing zookeeper sessionid=0x14bb4516ad10008
+2015-02-22 18:54:52,915 INFO  org.apache.zookeeper.ZooKeeper [main] - Session: 0x14bb4516ad10008 closed
+2015-02-22 18:54:52,915 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down
+2015-02-22 18:54:53,051 INFO  org.apache.zookeeper.ZooKeeper [main] - Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=hconnection-0x209b9515, quorum=localhost:2181, baseZNode=/hbase
+2015-02-22 18:54:53,051 INFO  org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - Process identifier=hconnection-0x209b9515 connecting to ZooKeeper ensemble=localhost:2181
+2015-02-22 18:54:53,052 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 18:54:53,052 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-22 18:54:53,054 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14bb4516ad10009, negotiated timeout = 40000
+2015-02-22 18:54:53,186 INFO  org.elasticsearch.plugins [main] - [Man-Ape] loaded [], sites []
+2015-02-22 18:54:54,775 INFO  spray.can.server.HttpListener [EventServerSystem-akka.actor.default-dispatcher-3] - Bound to localhost/127.0.0.1:7070
+2015-02-22 18:54:54,776 INFO  io.prediction.data.api.EventServerActor [EventServerSystem-akka.actor.default-dispatcher-3] - Bound received. EventServer is ready.
+2015-02-22 18:55:04,001 INFO  io.prediction.tools.Console$ [main] - Using existing engine manifest JSON at /Users/maegek/Documents/Education/CSE 495/PredictionIOWorkspace/corenlp/manifest.json
+2015-02-22 18:55:04,014 INFO  io.prediction.tools.Console$ [main] - Using command '/Users/maegek/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-02-22 18:55:04,017 INFO  io.prediction.tools.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-02-22 18:55:04,018 INFO  io.prediction.tools.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.8.6.jar is absent.
+2015-02-22 18:55:04,018 INFO  io.prediction.tools.Console$ [main] - Going to run: /Users/maegek/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-02-22 18:55:11,817 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mjava.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space[0m
+2015-02-22 18:55:11,818 ERROR io.prediction.tools.Console$ [Thread-1] - [0m[[31merror[0m] [0mUse 'last' for the full log.[0m
+2015-02-22 18:55:11,888 ERROR io.prediction.tools.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-02-22 21:27:40,681 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Unable to read additional data from server sessionid 0x14bb4516ad10009, likely server has closed socket, closing socket connection and attempting reconnect
+2015-02-22 21:27:41,193 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-22 21:27:41,193 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2015-02-22 21:27:41,194 INFO  org.apache.zookeeper.ClientCnxn [main-SendThread(localhost:2181)] - Unable to reconnect to ZooKeeper service, session 0x14bb4516ad10009 has expired, closing socket connection
+2015-02-22 21:27:41,254 WARN  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main-EventThread] - This client just lost it's session with ZooKeeper, closing it. It will be recreated next time someone needs it
+org.apache.zookeeper.KeeperException$SessionExpiredException: KeeperErrorCode = Session expired
+	at org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher.connectionEvent(ZooKeeperWatcher.java:401)
+	at org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher.process(ZooKeeperWatcher.java:319)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2015-02-22 21:27:41,260 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main-EventThread] - Closing zookeeper sessionid=0x14bb4516ad10009
+2015-02-22 21:27:41,261 INFO  org.apache.zookeeper.ClientCnxn [main-EventThread] - EventThread shut down

@@ -14,6 +14,7 @@ case class AlgorithmParams(
 ) extends Params
 
 // extends P2LAlgorithm because the MLlib's NaiveBayesModel doesn't contain RDD.
+// Probably need to use a new model here
 class NaiveBayesAlgorithm(val ap: AlgorithmParams)
   extends P2LAlgorithm[PreparedData, NaiveBayesModel, Query, PredictedResult] {
 
